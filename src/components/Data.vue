@@ -193,12 +193,13 @@ export default {
     },
 
   methods: {
-
+    //ass
     btnEdit(item) {
+     console.log(this.getDataById(item));
      console.log(this.getDataById(item));
      return this.getDataById(item)
       // this.$store.dispatch("edit",item)
-    },
+    }, 
     save(item) {
       console.log(item);
       this.$store.dispatch("save", this.text);
